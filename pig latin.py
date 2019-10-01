@@ -6,4 +6,6 @@ def pigLatin():
         newWord = word[0:] + 'yay'
     else:
         newWord = word[1:] + word[0] +'ay'
-    print(newWord)    
+    print(newWord)
+
+pigLatin()   # remember to call your code
